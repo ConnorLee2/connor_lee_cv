@@ -7,21 +7,49 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:trina_grid/trina_grid.dart';
 
 final List<TrinaColumn> columns = [
-  TrinaColumn(title: 'Name', field: 'name', type: TrinaColumnType.text()),
+  TrinaColumn(
+    title: 'Name',
+    field: 'name',
+    type: TrinaColumnType.text(),
+    enableColumnDrag: false,
+    enableContextMenu: false,
+  ),
   TrinaColumn(
     title: 'Type',
     field: 'type',
     type: TrinaColumnType.select(['Personal', 'Work', 'Learning']),
+    enableColumnDrag: false,
+    enableContextMenu: false,
   ),
-  TrinaColumn(title: 'Link', field: 'link', type: TrinaColumnType.text()),
+  TrinaColumn(
+    title: 'Link',
+    field: 'link',
+    type: TrinaColumnType.text(),
+    enableColumnDrag: false,
+    enableContextMenu: false,
+  ),
   TrinaColumn(
     title: 'Language',
     field: 'language',
     type: TrinaColumnType.text(),
+    enableColumnDrag: false,
+    enableContextMenu: false,
   ),
-  TrinaColumn(title: 'IDE', field: 'ide', type: TrinaColumnType.text()),
+  TrinaColumn(
+    title: 'IDE',
+    field: 'ide',
+    type: TrinaColumnType.text(),
+    enableColumnDrag: false,
+    enableContextMenu: false,
+  ),
 
-  TrinaColumn(title: 'Detail', field: 'detail', type: TrinaColumnType.text()),
+  TrinaColumn(
+    title: 'Detail',
+    field: 'detail',
+    type: TrinaColumnType.text(),
+    enableColumnDrag: false,
+    enableContextMenu: false,
+  ),
 ];
 
 Future<String> readJson() async {
