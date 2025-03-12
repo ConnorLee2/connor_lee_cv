@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Halo Smart IoT",
+    "type": "work",
+    "links": "https://apps.apple.com/gb/app/ebms-iot/id1565355086\nhttps://play.google.com/store/apps/details?id=com.tyrrell.ebms_iot",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "assets/images/halo_smart_iot.webp",
+    "detail": "Work project using Flutter. \nHome screen: Listview of devices connected to a gateway. Device cards can be reordered and filtered. Allows the user to rename, delete and add alarms to devices.\nGraph screen: Flutter ECharts library was used to make sure there is cohension with the web version of the app as they used Apache ECharts.\nAdd/remove device screen: Displays images/gifs to help the user add/remove devices to the gateway.\nSettings page: Uses shared preferences to save user preferences locally to the device.\nOverview page: Uses pluto_grid to display an overview of user's gateway information.\nPush notifications via firebase.\nDio/retrofit for APIs/backend.\nCI/CD using Gitlab Runner and Fastlane.\nState management via Provider/ChangeNotifier."
+  },
+  {
+    "name": "Halo for Niagara 4",
+    "type": "work",
+    "links": "https://apps.apple.com/gb/app/halo-for-niagara-4/id1593878277?platform=iphone\nhttps://play.google.com/store/apps/details?id=com.tyrrell.halo_for_niagara4",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "assets/images/halo_for_niagara_4.png",
+    "detail": "Work project using Flutter.\nConnects to a Halo Gateway and checks what sensors have been added to the gateway.\nIt displays the connectivity level of sensors."
+  },
+  {
+    "name": "IHP Install",
+    "type": "work",
+    "links": "https://apps.apple.com/gb/app/ihp-install/id1594394001?platform=iphone\nhttps://play.google.com/store/apps/details?id=com.tyrrell.ihp_install",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "assets/images/ihp_install.png",
+    "detail": "Work project using Flutter.\nFunctionality includes displaying videos based on the guide selected and a commisioning screen.\nCommisioning screen takes user input about the commisioned job and emails it to the selected email."
+  },
+  {
+    "name": "Simaxx Mobile",
+    "type": "work",
+    "links": "https://apps.apple.com/gb/app/simaxx-mobile/id1595888441?platform=iphone\nhttps://play.google.com/store/apps/details?id=com.simaxx.simaxx_mobile",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "assets/images/simaxx_mobile.png",
+    "detail": "Work project which used Flutter.\nMore of a proof-of-concept to show Flutter capabilities so that my company would use Flutter going forwards.\nBasic project which integrates a WebView connecting to the Simaxx platform whilst saving user details."
+  },
+  {
+    "name": "SSB Ironman",
+    "type": "personal",
+    "links": "https://github.com/ConnorLee2/SSB-Ironman",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "assets/images/ssb_ironman.png",
+    "detail": "Personal project for practicing using Flutter. \nProvider for state management.\nShared preferences for saving user preferences.\nFairly basic project with a lot of improvements to be made."
+  },
+  {
+    "name": "flutter_learning",
+    "type": "learning",
+    "links": "https://github.com/ConnorLee2/flutter_learning",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "",
+    "detail": "Collection of practice projects completed from https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps"
+  },
+  {
+    "name": "connor_lee_cv",
+    "type": "personal",
+    "links": "https://github.com/ConnorLee2/connor_lee_cv",
+    "language": "Flutter/Dart",
+    "ide": "Visual Studio Code",
+    "image": "",
+    "detail": "CV/Portfolio page created using Flutter. The website you are seeing should be this!"
+  },
+  {
+    "name": "eBMS / VDE",
+    "type": "work",
+    "links": "N/A",
+    "language": "Java",
+    "ide": "Android Studio",
+    "image": "",
+    "detail": "eBMS / VDE is an unreleased project.\nIt was designed to allow video calling between SIP devices.\nSIP device information was obtained by connecting to a JACE."
+  },
+  {
+    "name": "eBMS / Alarms",
+    "type": "work",
+    "links": "https://play.google.com/store/apps/details?id=com.tyrrell.ebmsalarms",
+    "language": "Java",
+    "ide": "Android Studio",
+    "image": "assets/images/ebms_alarms.png",
+    "detail": "eBMS / Alarms was a project that allows connection to any Niagara 4 station and receives all the alarms in that station.\nIt parses Obix data and displays alarms which can be filtered.\nIt also allows users to acknowledge alarms on that station.\nHas onboarding functionality."
+  },
+  {
+    "name": "CrossTalk 3 (Mobile)",
+    "type": "work",
+    "links": "https://play.google.com/store/apps/details?id=com.tyrrell.crosstalk3mobile",
+    "language": "Java",
+    "ide": "Android Studio",
+    "image": "assets/images/crosstalk_3_mobile.png",
+    "detail": "Crosstalk 3 was a project that was currently supported on Windows and our end-user wanted phone functionality.\nDesign based on our designer.\nTakes API data from the Crosstalk 3 project and displays it on the phone.\nIncludes notifications when fire alarms occur.\nAllows silencing and reseting fire panels from the phone."
+  },
+  {
+    "name": "eBMS / Mobile",
+    "type": "work",
+    "links": "https://play.google.com/store/apps/details?id=com.tyrrell.ebms.mobile",
+    "language": "Java",
+    "ide": "Android Studio",
+    "image": "assets/images/ebms_mobile.webp",
+    "detail": "Primarily bug fixes and improvements.\nThis app had a lot of aging code and libraries that were no longer maintained. It was updated to work with newer versions of Android and run with newer versions of Niagara as well."
+  },
+  {
+    "name": "eBMS / TouchView",
+    "type": "work",
+    "links": "https://play.google.com/store/apps/details?id=touchview.ebms.tyrrell.com.ebmstouchview.app",
+    "language": "Java",
+    "ide": "Android Studio",
+    "image": "assets/images/ebms_touchview.webp",
+    "detail": "Primarily bug fixes and improvements. \nThis app was designed to run on a tablet 24/7 and it had a major issue with memory leaks.\nThis was fixed using Leakcanary and Crashlytics to see what was causing the memory leaks."
+  },
+  {
+    "name": "Weather App (Android)",
+    "type": "personal",
+    "links": "https://github.com/ConnorLee2/WeatherAppiOS",
+    "language": "Java",
+    "ide": "Android Studio",
+    "image": "assets/images/weather_app_android.jpeg",
+    "detail": "Written in Java using Android Studio.\nDisplays weather results based on the user's chosen city.\nUses OpenWeatherMap API to retrieve JSON files containing weather information.\nMoshi/gson library is used to read JSON files as objects.\nVolley is used to grab data from the API."
+  },
+  {
+    "name": "Weather App (iOS)",
+    "type": "personal",
+    "links": "https://github.com/ConnorLee2/WeatherAppiOS",
+    "language": "Swift",
+    "ide": "Xcode",
+    "image": "assets/images/weather_app_ios.png",
+    "detail": "Personal project for practicing using Swift and Xcode. \nIt uses OpenweatherMap API for the weather data. \nIt has a list view and a detail view for the city chosen by the user."
+  },
+  {
+    "name": "practice_projects_ios",
+    "type": "learning",
+    "links": "https://github.com/ConnorLee2/PracticeProjectsiOS",
+    "language": "Swift",
+    "ide": "Xcode",
+    "image": "",
+    "detail": "Collection of practice projects completed from HackingWithSwift."
+  },
+  {
+    "name": "nodejs_learning",
+    "type": "learning",
+    "links": "https://github.com/ConnorLee2/nodejs_learning",
+    "language": "NodeJS/Javascript",
+    "ide": "Visual Studio Code",
+    "image": "",
+    "detail": "Learning based on https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/"
+  },
+  {
+    "name": "Weather Systems (GL)",
+    "type": "personal",
+    "links": "https://github.com/ConnorLee2/WeatherSystemsGL",
+    "language": "C++/OpenGL",
+    "ide": "Visual Studio",
+    "image": "assets/images/weather_systems_gl.png",
+    "detail": "Written in C++ using Visual Studio.\nThis project was part of my dissertation. The aim was to create a weather system that interacts and changes a virtual environment.\nUses OpenGL library.\nFeatures rain/snow weather, and a day/night system."
+  },
+  {
+    "name": "2D Game Engine",
+    "type": "personal",
+    "links": "https://github.com/ConnorLee2/2D-Game-Engine",
+    "language": "C++/SFML",
+    "ide": "Visual Studio",
+    "image": "assets/images/2d_game_engine.png",
+    "detail": "Written in C++ using Visual Studio. \nFeatures two levels in which the player can move their character around and fire projectiles at enemies.\nThe SFML library contains the core functionality which is extended with multiple subsystems such as resource, audio, and input managers."
+  },
+  {
+    "name": "net_learning",
+    "type": "learning",
+    "links": "https://github.com/ConnorLee2/net_learning",
+    "language": "C#",
+    "ide": "Visual Studio 2022",
+    "image": "",
+    "detail": "Learning based on https://learn.microsoft.com/en-us/training/dotnet/"
+  }
+]
